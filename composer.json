@@ -1,0 +1,53 @@
+{
+    "name": "wovosoft/laravel-products",
+    "description": "Products or, Items Management for Laravel Applications",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "Products",
+        "Items",
+        "Point of Sale",
+        " Inventory Management",
+        " Stocks"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Narayan Adhikary",
+            "email": "narayanadhikary24@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4.*",
+        "illuminate/support": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wovosoft\\LaravelProducts\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wovosoft\\LaravelProducts\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "phpunit": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wovosoft\\LaravelProducts\\ServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
