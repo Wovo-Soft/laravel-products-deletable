@@ -159,7 +159,7 @@ or create issue in [the Github Repository](https://github.com/wovosoft/laravel-p
 
 ## Credits
 
-- [Narayan Adhikary](https://github.com/wovosoft/laravel-products)
+- [Narayan Adhikary](https://github.com/narai420)
 - [All contributors](https://github.com/wovosoft/laravel-products/graphs/contributors)
 
 This package is bootstrapped with the help of
