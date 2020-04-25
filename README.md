@@ -1,6 +1,10 @@
 # Laravel Products
 
-[![Latest Stable Version](https://poser.pugx.org/wovosoft/laravel-permissions/v/stable)](https://packagist.org/packages/wovosoft/laravel-permissions) [![Total Downloads](https://poser.pugx.org/wovosoft/laravel-permissions/downloads)](https://packagist.org/packages/wovosoft/laravel-permissions) [![Latest Unstable Version](https://poser.pugx.org/wovosoft/laravel-permissions/v/unstable)](https://packagist.org/packages/wovosoft/laravel-permissions) [![License](https://poser.pugx.org/wovosoft/laravel-permissions/license)](https://packagist.org/packages/wovosoft/laravel-permissions)
+
+[![Latest Stable Version](https://poser.pugx.org/wovosoft/laravel-products/v/stable)](https://packagist.org/packages/wovosoft/laravel-products)
+[![Total Downloads](https://poser.pugx.org/wovosoft/laravel-products/downloads)](https://packagist.org/packages/wovosoft/laravel-products)
+[![Latest Unstable Version](https://poser.pugx.org/wovosoft/laravel-products/v/unstable)](https://packagist.org/packages/wovosoft/laravel-products)
+[![License](https://poser.pugx.org/wovosoft/laravel-products/license)](https://packagist.org/packages/wovosoft/laravel-products)
 
 ## Package description
 This Package provides the features of "Products". Normally for applications like Point of Sale, Inventory Management System
