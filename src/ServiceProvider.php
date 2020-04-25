@@ -16,7 +16,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
 
         $this->loadMigrationsFrom(__DIR__ . "/../database/migrations");
-        if (config('laravel-products.routes_enabled')) {
+        if (config('laravel-products.routes.enabled')) {
             $this->loadRoutesFrom(__DIR__ . "/routes.php");
         }
         $this->loadFactoriesFrom(__DIR__ . "/../database/factories");

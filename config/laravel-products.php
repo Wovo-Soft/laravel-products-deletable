@@ -1,7 +1,12 @@
 <?php
 
 return [
-    'routes_enabled' => true,
+    'routes' => [
+        'enabled' => true,
+        'namespace' => 'Wovosoft',
+        'prefix' => 'backend',
+        'middleware' => ['web', 'auth']
+    ],
     'PER_PAGE' => env('PER_PAGE') ?? 15,
     'products' => [
         'table' => 'products',
