@@ -22,6 +22,7 @@ class ProductsController extends Controller
      * @var string
      */
     private string $model;
+    private array $search_fields = ['id', 'name', 'upc', 'type', 'url', 'cost', 'price', 'description', 'created_at', 'updated_at'];
 
     public function __construct()
     {

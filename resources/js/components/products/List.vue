@@ -113,7 +113,7 @@
                                               :fields="['id','title',
                                               {key:'cost',formatter:v=>$options.filters.currency(v)},
                                               {key:'price',formatter:v=>$options.filters.currency(v)},
-                                              'description']"/>
+                                              {key:'description',tdClass:'w-50',thClass:'w-50'}]"/>
                                 <template v-else>No Attributes Found</template>
                             </template>
                             <template v-else>{{row.item.value}}</template>
@@ -211,3 +211,4 @@
         }
     }
 </script>
+
