@@ -35,7 +35,7 @@ class ProductsSeeder extends Seeder
                 'product_id' => $products[random_int(0, self::NUMBER_OF_ITEMS - 1)],
                 'brand_id' => $brands[random_int(0, self::NUMBER_OF_ITEMS - 1)],
             ]);
-            config('laravel-products.assignments.products_brands.model')::create([
+            config('laravel-products.assignments.products_categories.model')::create([
                 'product_id' => $products[random_int(0, self::NUMBER_OF_ITEMS - 1)],
                 'category_id' => $categories[random_int(0, self::NUMBER_OF_ITEMS - 1)],
             ]);
